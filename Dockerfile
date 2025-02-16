@@ -6,5 +6,6 @@ WORKDIR /app
 # Create app directory
 COPY . /app
 
-
+# Install app dependencies
+RUN npm install
 
