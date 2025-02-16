@@ -9,3 +9,5 @@ COPY . /app
 # Install app dependencies
 RUN npm install
 
+# Serve the app
+CMD ["node", "server.js"]
